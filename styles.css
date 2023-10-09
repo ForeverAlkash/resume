@@ -1,0 +1,147 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background: #eee;
+    color: #000;
+    cursor: default;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 5px
+}
+
+.portfolio {
+    margin: 10px;
+    color: #fff;
+    border: 2px;
+    border-radius: 5px;
+    background-color: #44444468;
+    position: absolute;
+    padding: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.img {
+    border: 1px;
+    border-radius: 50%;
+    width: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+    margin: 10px;
+    width: 98%;
+    text-align: center;
+}
+
+.name h1 {
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.hobby {
+    background-color: #ffd8949b;
+    margin: 5px;
+    padding: 5px;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 98%;
+}
+
+.my-hobby {
+    font-weight: 1000;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.games {
+    padding-left: 10%;
+}
+
+.table-main {
+    padding-left: 10%;
+}
+
+.table {
+    background-color: #cbf78891;
+    margin: 5px;
+    padding: 5px;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+.links {
+    background-color: #fd86867e;
+    margin: 5px;
+    padding: 5px;
+    border: 2px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 98%;
+}
+
+.vk {
+    color: black;
+}
+
+.tg {
+    color: black;
+}
+
+form {
+    text-align: center;
+    background-color: #fdff9989;
+    margin: 5px;
+    padding: 5px;
+    border: 2px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 98%;
+}
+
+.btn {
+    background-color: #555;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: gold;
+}
+.link {
+    border: none;
+    color: #000;
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: gold;
+    font-size: 15px;
+}
+
+.input {
+border: none;
+width: 150px;
+}
+.table th {
+    background-color: #47bb4f85;
+}
