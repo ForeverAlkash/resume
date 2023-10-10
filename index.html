@@ -9,13 +9,20 @@
 </head>
 
 <body>
-    <a class="link portfolio" href="https://codepen.io/Cheppy-Boy/pens/tags/?selected_tag=main" target="_blank">Портфолио</a>
+    <a class="link portfolio" href="https://codepen.io/Cheppy-Boy/pens/tags/?selected_tag=main"
+        target="_blank">Портфолио</a>
     <div class="container">
-        <img src="avatar.jpg" width="500" class="img">
+        <div class="imgs">
+            <img src="avatar.jpg"  class="img">
+        </div>
         <div class="name">
             <h1>Михаил Дьяконов</h1>
             <p>
-                Я молодой программист который на данный момент обучается в школе <strong>ResultScool</strong>.
+                Я общительный молодой программист который обучается в <strong>ResultScool</strong>.
+                <br>
+                Так же занимаюсь фото-видео обработкой, монтажем, дружелюбный и ответственный человек.
+                <br>
+                <em>- На связи​ с 6:00 до 21:00-23:00.</em>
             </p>
         </div>
 
@@ -31,44 +38,47 @@
                 </ul>
             </div>
         </ul>
-        <table class="table">
-            <thead>
-                <th>Место работы</th>
-                <th>Должность</th>
-                <th>Время работы</th>
-            </thead>
-            <tbody>
-                <td>Самозанятый</td>
-                <td>...</td>
-                <td>2019 - Сейчас</td>
-            </tbody>
-            <tbody>
-                <td>CleanFord</td>
-                <td>Дизайнер, PR менеджер</td>
-                <td>2022 - Сейчас</td>
-            </tbody>
-        </table>
+        <div class="table">
+            <table>
+                <thead>
+                    <th>Опыт работы</th>
+                </thead>
+                <tbody>
+                    <td>Самозанятый</td>
+                    <td>...</td>
+                    <td>2019 - Сейчас</td>
+                </tbody>
+                <tbody>
+                    <td>CleanFord</td>
+                    <td>Дизайнер, PR менеджер</td>
+                    <td>2022 - Сейчас</td>
+                </tbody>
+            </table>
+        </div>
         <div class="links">
             <h2>Соцсети</h2>
             <a class="link vk" href="https://vk.com/free_skater" target="_blank">ВКонтакте </a>
             |
             <a class="link tg" href="https://t.me/ogtkoks" target="_blank">Телеграм</a>
         </div>
-        <form>
+        <form class="form">
             <h3>Связаться со мной</h3>
-            <div>
-                <label for="text">Ваше имя</label>
-                <input class="input sender-name" type="text" id="text" placeholder="Иван">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="text">Ваше имя</label>
+                    <input type="text" id="text" placeholder="Иван">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email</label>
+                    <input type="email" id="email" placeholder="example@mail.com">
+                </div>
             </div>
-            <div>
-                <label for="email">Ваш email</label>
-                <input class="input sender-email" type="email" id="email" placeholder="example@mail.com">
+            <div class="form-group">
+                <textarea name="massage" id="messege" cols="30" rows="1" placeholder="Сообщение"></textarea>
             </div>
-            <div>
-                <textarea class="input sender-msg" name="massage" id="messege" cols="30" rows="1" placeholder="Сообщение"></textarea>
-                <button class="btn">Отправить</button>
-            </div>
-        <form>
+            <button class="btn">Отправить</button>
+            <form>
     </div>
 </body>
 
