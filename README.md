@@ -1,3 +1,0 @@
-# My resume
-
-## Result here
