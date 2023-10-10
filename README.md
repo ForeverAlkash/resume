@@ -2,4 +2,4 @@
 
 ## Result here
 
-[About me]{https://foreveralkash.github.io/resume/}
+[About me](https://foreveralkash.github.io/resume/)
