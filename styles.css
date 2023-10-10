@@ -1,10 +1,4 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    background: #eee;
-    color: #000;
-    cursor: default;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Pixelify+Sans&family=Raleway:wght@100;400&family=Young+Serif&display=swap');
 
 * {
     margin: 0;
@@ -12,10 +6,19 @@ body {
     transition: all 200ms ease-in-out;
 }
 
+body {
+    font-family: 'Raleway', Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #000;
+    cursor: default;
+    background: linear-gradient(221.87deg, #bababa -29%, #fff 70%);
+}
+
+
 .container {
     max-width: 500px;
     margin: auto;
-    padding: 5px
+    padding: 5px;
 }
 
 .portfolio {
@@ -28,21 +31,12 @@ body {
     right: 10px;
     padding: 5px;
     margin-right: 5px;
-    box-shadow:
-        -7px -7px 20px 0px #fff9,
-        -4px -4px 5px 0px #fff9,
-        7px 7px 20px 0px #0002,
-        4px 4px 5px 0px #0001;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio:hover {
     color: #9343436c;
     font-size: 17px;
-    box-shadow:
-        -7px -7px 20px 0px #fff9,
-        -4px -4px 5px 0px #fff9,
-        10px 10px 20px 0px #0002,
-        8px 8px 8spx 0px #0001;
 }
 
 .img {
@@ -76,8 +70,12 @@ body {
 
 .name h1 {
     text-align: center;
-    border-radius: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid black;
+    width: 99%;
+    box-sizing: border-box;
+    font-size: 18px;
 }
 
 .hobby {
@@ -92,10 +90,13 @@ body {
 }
 
 .my-hobby {
-    font-weight: 1000;
-    font-size: 20px;
-    padding-left: 5px;
-    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 99%;
+    box-sizing: border-box;
+    font-size: 18px;
 }
 
 .games {
@@ -114,6 +115,24 @@ body {
     border-radius: 5px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     width: 100%;
+    height: auto;
+}
+
+.table tbody td {
+ margin: 5px;
+ padding: 0px;
+ width: 38%;
+ box-sizing: content-box;
+}
+
+.table-th {
+    padding: 5px;
+    margin: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 99%;
+    box-sizing: border-box;
+    font-size: 18px;
 }
 
 .links {
@@ -125,6 +144,16 @@ body {
     text-align: center;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     width: 100%;
+}
+
+.links h2 {
+    padding: 5px;
+    margin: 5px;
+    margin-top: 0;
+    border-bottom: 1px solid black;
+    width: 99%;
+    box-sizing: border-box;
+    font-size: 18px;
 }
 
 .vk {
