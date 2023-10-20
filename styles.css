@@ -11,6 +11,10 @@ body {
     font-size: 16px;
     color: #000;
     cursor: default;
+    background:
+    linear-gradient(217deg, #6e7595, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #688268, rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, #8f7676, rgba(0, 0, 255, 0) 70.71%);
 }
 
 
@@ -18,9 +22,10 @@ body {
     max-width: 500px;
     margin: auto;
     padding: 5px;
+
 }
 
-.portfolio {
+/* .portfolio {
     display: block;
     margin: 5px;
     background: #9343436c;
@@ -36,7 +41,7 @@ body {
 .portfolio:hover {
     color: #9343436c;
     font-size: 17px;
-}
+} */
 
 .img {
     border: 10px solid rgba(156, 156, 156, 0.633);
@@ -162,6 +167,12 @@ body {
     padding: 2px;
 }
 
+.vk:hover {
+    color: #0077fe;
+    font-size: 17px;
+}
+
+
 .tg {
     color: black;
     border: 1px;
@@ -169,14 +180,32 @@ body {
     padding: 2px;
 }
 
-
-.vk:hover {
-    color: #0077fe;
+.tg:hover {
+    color: #18a3e6;
     font-size: 17px;
 }
 
-.tg:hover {
-    color: #18a3e6;
+.codepen {
+    color: black;
+    border: 1px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.codepen:hover {
+    color: #6d6e6e;
+    font-size: 17px;
+}
+
+.git {
+    color: black;
+    border: 1px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.git:hover {
+    color: #9d9d9d;
     font-size: 17px;
 }
 
