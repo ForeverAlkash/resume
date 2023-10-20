@@ -16,7 +16,6 @@ body {
         linear-gradient(127deg, #688268, rgba(0, 255, 0, 0) 70.71%),
         linear-gradient(336deg, #8f7676, rgba(0, 0, 255, 0) 70.71%);
     min-height: 100vh;
-
 }
 
 
@@ -24,7 +23,7 @@ body {
     max-width: 500px;
     margin: auto;
     padding: 5px;
-
+    min-height: auto;
 }
 
 /* .portfolio {
@@ -125,10 +124,10 @@ body {
 }
 
 .table tbody td {
- margin: 5px;
- padding: 0px;
- width: 38%;
- box-sizing: content-box;
+    margin: 5px;
+    padding: 0px;
+    width: 38%;
+    box-sizing: content-box;
 }
 
 .table-th {
@@ -275,4 +274,11 @@ body {
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
+}
+
+.ps{
+    text-align: right;
+    width: 100%;
+    color: #343434ac;
+    margin-right: 5px;
 }
