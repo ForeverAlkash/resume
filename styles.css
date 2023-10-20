@@ -12,9 +12,11 @@ body {
     color: #000;
     cursor: default;
     background:
-    linear-gradient(217deg, #6e7595, rgba(255, 0, 0, 0) 70.71%),
-    linear-gradient(127deg, #688268, rgba(0, 255, 0, 0) 70.71%),
-    linear-gradient(336deg, #8f7676, rgba(0, 0, 255, 0) 70.71%);
+        linear-gradient(217deg, #6e7595, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #688268, rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, #8f7676, rgba(0, 0, 255, 0) 70.71%);
+    min-height: 100vh;
+
 }
 
 
